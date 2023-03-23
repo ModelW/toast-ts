@@ -1,6 +1,6 @@
 {
   "name": "@model-w/toast",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "requires": true,
   "description": "Nuxt module to make Toast notifications work with Nuxt3",
@@ -11,7 +11,7 @@
   "author": "Rémy Sanchez (@xowap)",
   "license": "WTFPL",
   "engines": {
-    "node": ">=16.0.1"
+    "node": ">=16.0.0"
   },
   "homepage": "https://github.com/ModelW/toast-ts#readme",
   "contributors": [
