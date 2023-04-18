@@ -1,6 +1,6 @@
 {
   "name": "@model-w/toast",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "type": "module",
   "requires": true,
   "description": "Nuxt module to make Toast notifications work with Nuxt3",
