@@ -1,15 +1,8 @@
-# ModelW Toast
+# Model W &mdash; Toast
 
-This module is intended to enable the Toast notifications in Nuxt3, showing them inside the pages.
+This Toast plug-in for Nuxt 3 projects, allows to use Toast inside the `useNuxtApp()` context,
+to show notifications with diferent type of inputs.
 
-### Installation
-To install this module we need to get it from npm with the following command:
-```commandline
-npm install @model-w/toast
-```
+## Documentation
 
-### Setup
-After we need to add to the `nuxt.config.ts` file, the following param:
-```typescript
-modules: ["@model-w/toast"]
-```
+[✨ **Documentation is there** ✨](https://model-w-toast.readthedocs.io/en/latest/)
