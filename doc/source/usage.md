@@ -20,7 +20,7 @@ We can use Toast with the previous implementation, the example above show how to
 ```
 
 If you want to see it running you 
-can click on this [link](https://codesandbox.io/p/sandbox/peaceful-khorana-dmxmuc?file=%2Fpages%2Findex.vue).
+can click on this [link](https://codesandbox.io/p/sandbox/modelw-toast-nuxt3-dmxmuc?file=%2Fpages%2Findex.vue).
 
 Also, we can use `nextTick` from `@vue/runtime-core` 
 to launch a Toast event to show helpful information, as the example above shows.
