@@ -1,8 +1,8 @@
 # Installation
 
-In order to install the Model W Toast, you need to add it to the `package.json`, for example `"@model-w/toast": "~0.2.4"`,
-or use the next command 
-```commandline
+You can install Model W Toast in your project with the following command.
+
+```shell
 npm install @model-w/toast
 ```
 
@@ -18,4 +18,4 @@ export default defineNuxtConfig(
   }
 )
 ```
-When you have added it to this configuration, you are ready to use it.
+Once configured, it's ready to use.
