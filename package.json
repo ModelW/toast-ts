@@ -2,25 +2,21 @@
   "name": "@model-w/toast",
   "version": "0.2.4",
   "type": "module",
-  "requires": true,
   "description": "Nuxt module to make Toast notifications work with Nuxt3",
+  "license": "WTFPL",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ModelW/toast-ts.git"
   },
-  "author": "Rémy Sanchez (@xowap)",
-  "license": "WTFPL",
-  "engines": {
-    "node": ">=16.0.0"
-  },
   "homepage": "https://model-w-toast.readthedocs.io/en/latest/",
+  "bugs": {
+    "url": "https://github.com/ModelW/toast-ts/issues"
+  },
+  "author": "Rémy Sanchez (@xowap)",
   "contributors": [
     "Laurent Treguier",
     "Ivan Lorenzo"
   ],
-  "bugs": {
-    "url": "https://github.com/ModelW/toast-ts/issues"
-  },
   "keywords": [
     "toast",
     "nuxt3",
@@ -49,6 +45,9 @@
     "lint": "eslint .",
     "test": "vitest run",
     "test:watch": "vitest watch"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   },
   "dependencies": {
     "@nuxt/kit": "^3.4.2",
