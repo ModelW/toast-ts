@@ -1,6 +1,6 @@
 {
   "name": "@model-w/toast",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "type": "module",
   "description": "Nuxt module to make Toast notifications work with Nuxt3",
   "license": "WTFPL",
@@ -61,6 +61,6 @@
     "changelogen": "^0.5.3",
     "eslint": "^8.39.0",
     "nuxt": "^3.4.3",
-    "vitest": "^0.31.0"
+    "vitest": "^0.30.1"
   }
 }
