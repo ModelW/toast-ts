@@ -1,26 +1,22 @@
 {
   "name": "@model-w/toast",
-  "version": "0.2.2",
+  "version": "0.2.5",
   "type": "module",
-  "requires": true,
   "description": "Nuxt module to make Toast notifications work with Nuxt3",
+  "license": "WTFPL",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ModelW/toast-ts.git"
   },
-  "author": "Rémy Sanchez (@xowap)",
-  "license": "WTFPL",
-  "engines": {
-    "node": ">=16.0.0"
+  "homepage": "https://model-w-toast.readthedocs.io/en/latest/",
+  "bugs": {
+    "url": "https://github.com/ModelW/toast-ts/issues"
   },
-  "homepage": "https://github.com/ModelW/toast-ts#readme",
+  "author": "Rémy Sanchez (@xowap)",
   "contributors": [
     "Laurent Treguier",
     "Ivan Lorenzo"
   ],
-  "bugs": {
-    "url": "https://github.com/ModelW/toast-ts/issues"
-  },
   "keywords": [
     "toast",
     "nuxt3",
@@ -45,23 +41,26 @@
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
-    "release": "npm run lint && npm run test && npm run prepack && changelogen --release && npm publish && git push --follow-tags",
+    "release": "make release",
     "lint": "eslint .",
     "test": "vitest run",
     "test:watch": "vitest watch"
   },
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "dependencies": {
-    "@nuxt/kit": "^3.4.1",
-    "vue3-toastify": "^0.1.7"
+    "@nuxt/kit": "^3.4.3",
+    "vue3-toastify": "^0.1.8"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",
-    "@nuxt/module-builder": "^0.3.0",
-    "@nuxt/schema": "^3.4.1",
-    "@nuxt/test-utils": "^3.4.1",
+    "@nuxt/module-builder": "^0.3.1",
+    "@nuxt/schema": "^3.4.3",
+    "@nuxt/test-utils": "^3.4.3",
     "changelogen": "^0.5.3",
-    "eslint": "^8.38.0",
-    "nuxt": "^3.4.1",
-    "vitest": "^0.30.1"
+    "eslint": "^8.39.0",
+    "nuxt": "^3.4.3",
+    "vitest": "^0.31.0"
   }
 }
